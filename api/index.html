@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
-    <title>中转</title>
+    <title>注册页</title>
 </head>
 <body>
     <div id="tips" style="font-size:25px;text-align: center;line-height: 50px;"></div>
@@ -31,10 +31,11 @@
     } else {
     // 不是微信客户端，直接可以访问链接
     if (urlParmStr == url){
-        urlParmStr = "https://www.qian.blue";
+        urlParmStr = "https://www.baidu.com";
     }
     console.log(urlParmStr);
-    location.href=urlParmStr;
+    //location.href=urlParmStr;
+    window.location=urlParmStr;
     }
 </script>
     <script async type="text/javascript" src="https://js.users.51.la/21480329.js"></script>
